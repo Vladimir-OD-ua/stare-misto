@@ -1,0 +1,357 @@
+@media (max-width:1500px) {
+  .icon-bar {
+    margin-left: 20px;
+  }
+}
+@media (max-width:1400px) {
+  .site-face-container {
+    height: 35vh;
+  }
+  .site-face-picture {
+    height: 500px;
+  }
+  .icon-bar {
+    margin-left: 20px;
+  }
+  .btn_up {
+    right: 20px;
+  }
+  .icon-bar {
+    margin-left: 10px;
+    top: 50%;
+  }
+  .frame-menu-info {
+    width: 28%;
+  }
+  .footer-basket {
+    position: relative;
+    bottom: 0;
+    width: auto;
+  }
+  .clearance-order {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .log-in {
+    width: 30%;
+  }
+  .group input {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .log-in {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1200px) {
+  .btn_up.active {
+    bottom: 15%;
+  }
+  .site-face-container {
+    height: 26vh;
+    margin-top: 80px;
+  }
+  .menu-oll {
+    justify-content: center;
+  }
+  .frame-menu-info {
+    width: 26%;
+    height: 400px;
+  }
+  .title-menu {
+    font-size: 40px;
+  }
+  .price-menu-position {
+    font-size: 17px;
+  }
+  .header-menu {
+    height: 80px;
+  }
+  .buy-menu-position {
+    padding: 10px 15px;
+  }
+  .header-menu {
+    justify-content: flex-end;
+  }
+  .our-contacts {
+    border-left: none;
+    margin-right: 25px;
+  }
+  .shopping-basket {
+    margin-right: 50px;
+  }
+  .nav-menu {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    top: -100%;
+    transition: all 0.4s ease 0.1s;
+  }
+  .nav-menu.active {
+    top: 80px;
+  }
+  .burger-stroke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #9f1308;
+  }
+  .burger {
+    padding: 5px;
+    left: 20px;
+    top: 10px;
+    position: fixed;
+    z-index: 200;
+  }
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .header-burger span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger:before,
+  .header-burger:after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger:before {
+    top: 0;
+  }
+  .header-burger:after {
+    bottom: 0;
+  }
+  .header-burger.active span {
+    transform: scale(0);
+  }
+  .header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .modal-window {
+    width: 80%;
+  }
+  .name-menu-position {
+    font-size: 20px;
+  }
+  .log-in {
+    width: 50%;
+  }
+}
+
+@media (max-width:992px) {
+  .site-face-container {
+    height: 50vh;
+  }
+  .nav-menu {
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 320px;
+  }
+  .nav-item {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .title-menu {
+    font-size: 35px;
+  }
+  .frame-menu-info {
+    width: 35%;
+  }
+  .pizza-img img {
+    width: 300px;
+  }
+  .button-modal {
+    padding: 10px 15px;
+  }
+  .modal-window {
+    width: 80%;
+  }
+  .menu-position-components {
+    font-size: 14px;
+  }
+  .text-stile {
+    font-size: 16px;
+  }
+}
+@media (max-width:768px) {
+  .site-face-picture {
+    opacity: 0;
+  }
+  .site-face-container {
+    background: linear-gradient(to right, #1d1d1d, #7f0606);
+  }
+  .site-face-background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo_w_k_c.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+  .frame-menu-info {
+    width: 100%;
+    height: auto;
+  }
+  .footer-info {
+    width: 100%;
+  }
+  .callback {
+    display: none;
+  }
+  .shopping-basket {
+    margin-right: 0;
+  }
+  .burger {
+    left: 5px;
+  }
+  .main-page {
+    top: 60%;
+  }
+  .icon-bar {
+    margin-left: 10px;
+  }
+  .footer-info {
+    margin: 0;
+  }
+  .social-icon a {
+    margin: 10px;
+  }
+  .button-modal {
+    padding: 8px 10px;
+  }
+  .menu-position-components {
+    font-size: 14px;
+  }
+  .text-stile {
+    font-size: 15px;
+  }
+  .pizza-img {
+    margin: 10px;
+  }
+  .menu-photo {
+    justify-content: center;
+    display: flex;
+  }
+  .menu-photo img {
+    width: 50%;
+  }
+  .subtitle-menu {
+    text-align: center;
+    font-size: 30px;
+  }
+  .first-meal {
+    font-size: 12px;
+  }
+  .nav-item-link-hot-meal {
+    font-size: 11px;
+  }
+  .hot-meal-position {
+    justify-content: center;
+  }
+  .title-clearance-order {
+    font-size: 30px;
+  }
+  .check-text {
+    font-size: 13px;
+  }
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+  }
+  .nav-item {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width:576px) {
+  .icon-bar {
+    display: none;
+  }
+  .btn_up {
+    width: 35px;
+    height: 35px;
+  }
+  .pizza-img img {
+    width: 180px;
+  }
+  .pizza-description {
+    padding: 0;
+    padding-left: 3px;
+  }
+  .name-menu-position {
+    font-size: 20px;
+  }
+  .menu-position-components {
+    font-size: 12px;
+  }
+  .button-modal {
+    padding: 4px 10px;
+  }
+  .additional-footer-title {
+    font-size: 12px;
+  }
+  .btn-close {
+    top: 10px;
+    right: 10px;
+    height: 23px;
+    width: 23px;
+    font-size: 12px;
+  }
+  .nav-item-link-hot-meal {
+    padding: 3px 5px;
+  }
+  .menu-photo img {
+    width: 70%;
+  }
+  .hot-meal-position {
+    align-items: center;
+    flex-direction: column;
+  }
+  .info-section {
+    flex-direction: column;
+  }
+  .text-stile {
+    margin-top: 15px;
+  }
+  .log-in {
+    width: 80%;
+  }
+}
+
+@media (max-width:375px) {
+  .btn_up.active {
+    bottom: 13%;
+  }
+  .btn_up {
+    right: 10px;
+  }
+}
